@@ -4,9 +4,9 @@ import "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol";
 import "openzeppelin-solidity/contracts/token/ERC20/ERC20Detailed.sol";
 
 contract GIGSToken is ERC20, ERC20Detailed {
-    uint256 public constant  FIVE_HUNDRED_MILLION = 500000000;
+    uint256 internal constant FIVE_HUNDRED_MILLION = 500000000;
+    uint8 internal constant DECIMALS = 18;
 
-    uint8 public constant DECIMALS = 18;
     uint256 public constant FIXED_SUPPLY = FIVE_HUNDRED_MILLION * (10 ** uint256(DECIMALS));
 
     constructor () public ERC20Detailed("GIGS", "GIGS",  DECIMALS) {
