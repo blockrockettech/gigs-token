@@ -1,10 +1,6 @@
-rendar-contracts
+GIGS Token
 ================
 
-##### Projects
+This repo contains all the smart contracts and test for the ERC-20 GIGS Token used by https://rewardportal.com/
 
-* This (Solidity smart contracts & tests)
-* https://github.com/blockrockettech/rendar-token-dapp - dApp frontend
-* https://github.com/blockrockettech/rendar-api - serverless API for serving functions from the frontend
-* https://github.com/blockrockettech/rendar-contract-tools - `npm` project for sharing contracts/abis/deployment configs etc
  
